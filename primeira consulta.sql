@@ -1,0 +1,9 @@
+SELECT * FROM DimCustomer
+
+SELECT * FROM DimStore
+
+SELECT StoreKey, StoreName, Status FROM DimStore 
+SELECT * FROM DimProduct
+
+SELECT PRODUCTNAME, PRODUCTDESCRIPTION FROM DimProduct
+

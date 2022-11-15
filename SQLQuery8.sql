@@ -1,0 +1,3 @@
+SELECT FirstName, HireDate, DepartmentName FROM DimEmployee
+WHERE  DEPARTMENTNAME IN ('FINANCE', 'MARKETING') AND HireDate >='2000-01-01'
+ORDER BY HireDate DESC
